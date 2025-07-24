@@ -1,6 +1,6 @@
 // scripts/fetch-sheet.js
-import { GoogleSpreadsheet } from "google-spreadsheet";
-import fs from "fs";
+const { GoogleSpreadsheet } = require("google-spreadsheet");
+const fs = require("fs");
 
 (async () => {
   // 환경변수에서 시트 ID와 서비스 계정 정보 로드
